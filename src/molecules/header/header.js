@@ -28,10 +28,12 @@ export default function Header () {
         <header className={styles.header}>
             <div className={styles.logo}>
                 <img 
-                    src='https://images.pexels.com/photos/1337384/pexels-photo-1337384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-                    height={80}
-                    width={80}
+                    src='https://cdn.pixabay.com/photo/2023/04/16/18/14/bird-7930857_1280.jpg'
+                    height={100}
+                    width={100}
                     style={{borderRadius : '50%'}}
+                    
+                    
                 />
             </div>
             <div className={styles.navWrapper}>
