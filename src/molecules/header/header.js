@@ -35,6 +35,7 @@ export default function Header () {
                     
                     
                 />
+                
             </div>
             <div className={styles.navWrapper}>
                 <Navbar/>

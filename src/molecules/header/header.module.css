@@ -1,8 +1,11 @@
-
+.body{
+    background-color: #d88218;
+}
 .navWrapper{
     display: none;
 }
 .header{
+    background-color: #29ae31;
     display: flex;
     align-items: center;
     justify-content: space-between;
