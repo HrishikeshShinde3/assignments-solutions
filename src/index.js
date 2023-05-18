@@ -8,8 +8,8 @@ import Home from './atoms/pages/pages/Home/Home';
 import Aboutus from './about-us/aboutus';
 import Register from './atoms/pages/pages/register/Register';
 import Login from './login-main/login'
-import Contactus from './atoms/pages/pages/contact-us/Contact-us';
 
+import DeleteUser from './Delete-user/Delete-user';
 
 
 
@@ -61,7 +61,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <DeleteUser/>
   </React.StrictMode>
 );
 
