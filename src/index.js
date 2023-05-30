@@ -8,6 +8,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Homepage from './components/pages/homepage';
+import CreateAccount from './components/pages/CreateAccount';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Homepage />,
+  },
+  {
+    path: "/CreateAccount",
+    element: <CreateAccount />,
   },
 ]);
 
